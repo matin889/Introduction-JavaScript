@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Fullstack JavaScript/Project/HTML"
+		},
+		{
+			"path": "../../../../../Fullstack JavaScript/practice"
+		},
+		{
+			"path": "../../../../../Fullstack JavaScript/Project/workshop2/Flexbox/css--flexbox-excercises-main/1. header with nav"
+		},
+		{
+			"path": "../../../../../Fullstack JavaScript/Project/workshop2/Responsive/css-rwd-excercises-with-flexbox-main"
+		},
+		{
+			"path": "../../../../../Fullstack JavaScript/Project/workshop2"
+		},
+		{
+			"path": "../../../../../Fullstack JavaScript/Project/workshop3"
+		},
+		{
+			"path": "../../../../../Fullstack JavaScript/Grid"
+		},
+		{
+			"path": "../../../../../Fullstack JavaScript/Uppgift-CV/myCV"
+		},
+		{
+			"path": "../../../../Uppgift-CV/myCV/CV"
+		},
+		{
+			"path": "../../../../Uppgift-CV/myCV"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../JS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Introduction-JavaScript"
+	}
+}

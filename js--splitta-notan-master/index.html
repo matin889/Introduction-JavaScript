@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Splitta notan</title>
+    <script>
+    function calculate() {
+    let x = document.getElementById("sum").value;
+    let y = document.getElementById("numberOfFriends").value;
+    let z = document.getElementById("tip").value;
+    let summan = parseInt(x) + parseInt(y);
+    let res = summan / y;
+    res = document.getElementById("result").innerHTML;
+}
+    </script>
 </head>
 <body>
-    <main class="container">
+     <main class="container">
         <h1>Splitta notan</h1>
         <section class="form" id="inputForm">
             <section>
@@ -22,7 +32,7 @@
                 <input type="text" id="tip" class="form__input" required>
                 <label for="tip" class="form__label form__label_tip">Dricks</label>
             </section>
-            <button onclick="calculate()" class="form__button">Räkna</button>
+            <button class="form__button">Räkna</button>
         </section>
         <section class="form hide" id="showSum">
             <article>
@@ -31,6 +41,15 @@
             </article>
         </section>
     </main>
-     <!-- Link to JS  -->
+     
+     <!-- <form action="#">
+        <input type="text" id="enter1">
+        <input type="text" id="enter2">
+        <input type="text" id="enter3">
+    </form>
+    <p id="result"></p>
+    <button type="button" onclick="show()">Click Me</button> -->
+       
+        <script src="js/index.js"></script>
 </body>
 </html>
